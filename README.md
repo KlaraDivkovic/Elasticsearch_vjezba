@@ -10,16 +10,16 @@ http://localhost:5601
 
 OPIS:
 U ovoj vježbi sam:
-- pokrenula Elasticsearch i Kibanu pomoću Dockera
+- pokrenula Elasticsearch i Kibanu pomoću Docker Desktop-a
 - kreirala indeks "knjige"
-- ubacila podatke pomoću Bulk API-ja
-- radila različite upite (match, term, range, bool)
+- ubacila podatke uz Bulk API
+- radila zadane upite (match, term, range, bool)
 - koristila analyzer
 - radila agregacije
-- napravila vlastiti indeks "filmovi"
+- napravila vlastiti indeks "filmovi", te upite nad njima
 
 STRUKTURA:
 - docker-compose.yml 
-- queries.json 
+- queries.http
 - ODGOVORI.md 
 - screenshots/ 
